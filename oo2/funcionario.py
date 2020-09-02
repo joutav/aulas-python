@@ -29,18 +29,20 @@ class Hipster:
     def __str__(self):
         return f'Hipster, {self.nome}'
 
+
 class Junior(Alura):
     pass
+
 
 class Plenos(Alura, Caelum):
     pass
 
+
 class Senior(Alura, Caelum, Hipster):
     pass
+
 
 luan = Senior('Luan')
 print(luan)
 
-#MIXIN pequenas classes que nao se instancia um objeto, apenas adiciona um comportamento em classes ja existentes.
-
-
+# MIXIN pequenas classes que nao se instancia um objeto, apenas adiciona um comportamento em classes ja existentes.
