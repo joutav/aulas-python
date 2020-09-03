@@ -1,6 +1,9 @@
 class Funcionario:
-    def __init__(self, nome):
+    def __init__(self, nome, salario):
         self.nome = nome
+        self._salario
+
+
 
     def registra_horas(self, horas):
         print('Horas registradas...')
@@ -15,6 +18,9 @@ class Caelum(Funcionario):
 
     def busca_cursos_do_mes(self, mes=None):
         print(f'Mostrando cursos - {mes}' if mes else 'Mostrando cursos desse mês')
+
+    def bonificacao(self):
+        return super._salario() * 1.1
 
 
 class Alura(Funcionario):
@@ -46,3 +52,5 @@ luan = Senior('Luan')
 print(luan)
 
 # MIXIN pequenas classes que nao se instancia um objeto, apenas adiciona um comportamento em classes ja existentes.
+
+
