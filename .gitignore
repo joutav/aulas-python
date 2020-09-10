@@ -2,5 +2,3 @@
 *.pyc
 tdd-python/src/leilao/__pycache__/dominio.cpython-37.pyc
 *.pyc
-*.xml
-*.iml
