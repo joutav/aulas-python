@@ -6,12 +6,12 @@ from src.leilao.dominio import Usuario, Lance, Leilao
 class TestLeilao(TestCase):
 
     def setUp(self) -> None:
-        self.jao = Usuario("Joao")
+        self.jao = Usuario("Joao", 500)
         self.lance_do_jao = Lance(self.jao, 100.0)
         self.leilao = Leilao('Celular')
 
     def test_deve_retornar_o_maior_e_o_menor_valor_de_um_lance_quando_adicionados_em_ordem_crescente(self):
-        gui = Usuario('Gui')
+        gui = Usuario('Gui', 500)
         lance_do_gui = Lance(gui, 150.0)
 
 
@@ -28,7 +28,7 @@ class TestLeilao(TestCase):
 
     def test_nao_deve_permitir_propor_lances_em_ordem_decrescente(self):
         with self.assertRaises(ValueError):
-            gui = Usuario('Gui')
+            gui = Usuario('Gui', 500)
             lance_do_gui = Lance(gui, 150.0)
 
             self.leilao.propoe(lance_do_gui)
@@ -48,8 +48,8 @@ class TestLeilao(TestCase):
         self.assertEqual(maior_valor_esperado, self.leilao.maior_lance)
 
     def test_deve_retornar_o_maior_e_o_menor_valor_quando_o_leilao_tiver_tres_lances(self):
-        jorge = Usuario("Jorge")
-        gui = Usuario('Gui')
+        jorge = Usuario("Jorge", 500)
+        gui = Usuario('Gui', 500)
 
         lance_do_gui = Lance(gui, 150.0)
         lance_do_jorge = Lance(jorge, 200.0)
@@ -77,7 +77,7 @@ class TestLeilao(TestCase):
 
     # se o usuario for diferente do ultimo lance, permite propor
     def test_deve_permitir_propor_lance_caso_o_ultimo_usuario_seja_diferente(self):
-        gui = Usuario('gui')
+        gui = Usuario('gui', 500)
         lance_do_gui = Lance(gui, 200)
 
         self.leilao.propoe(self.lance_do_jao)
