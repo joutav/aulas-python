@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="720e71e3-b5c2-461c-b65c-78fc48fe82e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tdd-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tdd-python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leilao/excecoes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leilao/dominio.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/dominio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leilao/principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/principal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leilao/test_leilao.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_leilao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_leilao.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_leilao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_usuario.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +171,8 @@
       <workItem from="1599663932200" duration="12200000" />
       <workItem from="1599760272812" duration="1735000" />
       <workItem from="1599762019164" duration="2241000" />
-      <workItem from="1599769325305" duration="778000" />
+      <workItem from="1599769325305" duration="2225000" />
+      <workItem from="1599774952237" duration="24000" />
     </task>
     <servers />
   </component>
@@ -209,38 +208,38 @@
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
     <state x="708" y="318" key="FileChooserDialogImpl/0.0.1857.1080@0.0.1857.1080" timestamp="1599762447903" />
-    <state width="1814" height="287" key="GridCell.Tab.0.bottom" timestamp="1599769975262">
+    <state width="1814" height="354" key="GridCell.Tab.0.bottom" timestamp="1599772984866">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="287" key="GridCell.Tab.0.bottom/0.0.1857.1080@0.0.1857.1080" timestamp="1599769975262" />
-    <state width="1814" height="287" key="GridCell.Tab.0.center" timestamp="1599769975262">
+    <state width="1814" height="354" key="GridCell.Tab.0.bottom/0.0.1857.1080@0.0.1857.1080" timestamp="1599772984866" />
+    <state width="1814" height="354" key="GridCell.Tab.0.center" timestamp="1599772984866">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="287" key="GridCell.Tab.0.center/0.0.1857.1080@0.0.1857.1080" timestamp="1599769975262" />
-    <state width="1814" height="287" key="GridCell.Tab.0.left" timestamp="1599769975262">
+    <state width="1814" height="354" key="GridCell.Tab.0.center/0.0.1857.1080@0.0.1857.1080" timestamp="1599772984866" />
+    <state width="1814" height="354" key="GridCell.Tab.0.left" timestamp="1599772984866">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="287" key="GridCell.Tab.0.left/0.0.1857.1080@0.0.1857.1080" timestamp="1599769975262" />
-    <state width="1814" height="287" key="GridCell.Tab.0.right" timestamp="1599769975262">
+    <state width="1814" height="354" key="GridCell.Tab.0.left/0.0.1857.1080@0.0.1857.1080" timestamp="1599772984866" />
+    <state width="1814" height="354" key="GridCell.Tab.0.right" timestamp="1599772984866">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="287" key="GridCell.Tab.0.right/0.0.1857.1080@0.0.1857.1080" timestamp="1599769975262" />
-    <state width="1814" height="354" key="GridCell.Tab.1.bottom" timestamp="1599769890760">
+    <state width="1814" height="354" key="GridCell.Tab.0.right/0.0.1857.1080@0.0.1857.1080" timestamp="1599772984866" />
+    <state width="1814" height="354" key="GridCell.Tab.1.bottom" timestamp="1599772984866">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="354" key="GridCell.Tab.1.bottom/0.0.1857.1080@0.0.1857.1080" timestamp="1599769890760" />
-    <state width="1814" height="354" key="GridCell.Tab.1.center" timestamp="1599769890760">
+    <state width="1814" height="354" key="GridCell.Tab.1.bottom/0.0.1857.1080@0.0.1857.1080" timestamp="1599772984866" />
+    <state width="1814" height="354" key="GridCell.Tab.1.center" timestamp="1599772984866">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="354" key="GridCell.Tab.1.center/0.0.1857.1080@0.0.1857.1080" timestamp="1599769890760" />
-    <state width="1814" height="354" key="GridCell.Tab.1.left" timestamp="1599769890760">
+    <state width="1814" height="354" key="GridCell.Tab.1.center/0.0.1857.1080@0.0.1857.1080" timestamp="1599772984866" />
+    <state width="1814" height="354" key="GridCell.Tab.1.left" timestamp="1599772984866">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="354" key="GridCell.Tab.1.left/0.0.1857.1080@0.0.1857.1080" timestamp="1599769890760" />
-    <state width="1814" height="354" key="GridCell.Tab.1.right" timestamp="1599769890760">
+    <state width="1814" height="354" key="GridCell.Tab.1.left/0.0.1857.1080@0.0.1857.1080" timestamp="1599772984866" />
+    <state width="1814" height="354" key="GridCell.Tab.1.right" timestamp="1599772984866">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="354" key="GridCell.Tab.1.right/0.0.1857.1080@0.0.1857.1080" timestamp="1599769890760" />
+    <state width="1814" height="354" key="GridCell.Tab.1.right/0.0.1857.1080@0.0.1857.1080" timestamp="1599772984866" />
     <state x="429" y="184" key="SettingsEditor" timestamp="1599761596563">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
@@ -255,7 +254,7 @@
     <SUITE FILE_PATH="coverage/tdd_python$test_usuario.coverage" NAME="test_usuario Coverage Results" MODIFIED="1599762635343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/tdd_python$Unittests_for_test_avaliador_TestAvaliador_test_avalia.coverage" NAME="Unittests for test_avaliador.TestAvaliador.test_avalia Coverage Results" MODIFIED="1599593517185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
     <SUITE FILE_PATH="coverage/tdd_python$Unittests_for_test_leilao_TestLeilao.coverage" NAME="Unittests for test_leilao.TestLeilao Coverage Results" MODIFIED="1599696011311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/tdd_python$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1599769971570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/tdd_python$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1599770916713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/tdd_python$pytest_for_test_usuario_test_nao_deve_permitir_propor_lance_quando_valor_eh_maior_que_saldo_da_carteira.coverage" NAME="pytest for test_usuario.test_nao_deve_permitir_propor_lance_quando_valor_eh_maior_que_saldo_da_carteira Coverage Results" MODIFIED="1599763361053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/tdd_python$Unittests_in_test_leilao_py.coverage" NAME="Unittests in test_leilao.py Coverage Results" MODIFIED="1599695943323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/tdd_python$pytest_for_test_leilao_TestLeilao_test_deve_retornar_o_maior_e_o_menor_valor_quando_o_leilao_tiver_tres_lances.coverage" NAME="pytest for test_leilao.TestLeilao.test_deve_retornar_o_maior_e_o_menor_valor_quando_o_leilao_tiver_tres_lances Coverage Results" MODIFIED="1599762038841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
